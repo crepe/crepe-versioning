@@ -24,6 +24,9 @@ Crepe::Versioning supports three different versioning strategies:
  * In a query parameter
 
 ```ruby
+require 'crepe'
+require 'crepe/versioning'
+
 # Demonstrates versioning your API in several ways:
 #
 #   $ curl 0.0.0.0:9292/?v=v1
@@ -60,6 +63,9 @@ run Versioned
 The first defined version will be the default version (`:v2`, in the above case). You can also set namespace-wide configuration for your versions, including setting a default. For example:
 
 ```ruby
+require 'crepe'
+require 'crepe/versioning'
+
 # Demonstrates less repetetive version configuration:
 #
 #   $ curl 0.0.0.0:9292
