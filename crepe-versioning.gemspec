@@ -5,8 +5,13 @@ require 'crepe/versioning/version'
 Gem::Specification.new do |s|
   s.name          = 'crepe-versioning'
   s.version       = Crepe::Versioning::VERSION
-  s.authors       = ['David Celis']
-  s.email         = ['me@davidcel.is']
+  s.authors       = ['David Celis', 'Stephen Celis', 'Evan Owen']
+  s.email         = %w[
+    me@davidcel.is
+    stephen@stephencelis.com
+    kainosnoema@gmail.com
+  ]
+
   s.summary       = 'Version your Crêpe APIs.'
   s.description   = <<-DESCRIPTION.gsub(/^\s{4}/, '')
     Add support for versioning your Crêpe APIs in the URL path, a query

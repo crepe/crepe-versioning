@@ -1,11 +1,12 @@
 # crepe-versioning [![Build Status][1]][2] [![Code Climate][3]][4]
 
-Add versioning support to your Crêpe APIs.
+Add versioning support to your [Crêpe][crepe] APIs.
 
 [1]: https://img.shields.io/travis/crepe/crepe-versioning.svg?style=flat
 [2]: https://travis-ci.org/crepe/crepe-versioning
 [3]: https://img.shields.io/codeclimate/github/crepe/crepe-versioning.svg?style=flat
 [4]: https://codeclimate.com/github/crepe/crepe-versioning
+[crepe]: https://github.com/crepe/crepe
 
 ## Installation
 
@@ -17,7 +18,7 @@ gem 'crepe-versioning'
 
 ## Usage
 
-Crepe::Versioning supports three different versioning strategies:
+crepe-versioning supports three different versioning strategies:
 
  * In the path (the default)
  * In the Accept header
@@ -66,7 +67,7 @@ The first defined version will be the default version (`:v2`, in the above case)
 require 'crepe'
 require 'crepe/versioning'
 
-# Demonstrates less repetetive version configuration:
+# Demonstrates less repetitive version configuration:
 #
 #   $ curl 0.0.0.0:9292
 #   {"message":"Version 2"}
@@ -90,3 +91,7 @@ end
 
 run Versioned
 ```
+
+## License
+
+crepe-versioning is licensed under [The MIT License](LICENSE.txt).
