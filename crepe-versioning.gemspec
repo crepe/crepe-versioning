@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
     kainosnoema@gmail.com
   ]
 
-  s.summary       = 'Version your Crêpe APIs.'
+  s.summary       = 'Version your Crepe APIs.'
   s.description   = <<-DESCRIPTION.gsub(/^\s{4}/, '')
-    Add support for versioning your Crêpe APIs in the URL path, a query
+    Add support for versioning your Crepe APIs in the URL path, a query
     parameter, or an Accept header with a vendor string.
   DESCRIPTION
 

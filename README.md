@@ -1,6 +1,6 @@
 # crepe-versioning [![Build Status][1]][2] [![Code Climate][3]][4]
 
-Add versioning support to your [Crêpe][crepe] APIs.
+Add versioning support to your [Crepe][crepe] APIs.
 
 [1]: https://img.shields.io/travis/crepe/crepe-versioning.svg?style=flat
 [2]: https://travis-ci.org/crepe/crepe-versioning

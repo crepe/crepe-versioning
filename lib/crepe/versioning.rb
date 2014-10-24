@@ -6,7 +6,7 @@ require 'crepe/versioning/version'
 
 module Crepe
 
-  # Add API versioning support to Crêpe.
+  # Add API versioning support to Crepe.
   module Versioning
 
     # Specifies a version:
