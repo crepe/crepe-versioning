@@ -2,6 +2,7 @@ require 'crepe/api'
 
 require 'crepe/versioning/accept'
 require 'crepe/versioning/request'
+require 'crepe/versioning/endpoint'
 require 'crepe/versioning/version'
 
 module Crepe
