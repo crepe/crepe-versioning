@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.test_files    = Dir['spec/**/*']
   s.require_paths = ['lib']
 
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 2.1.0'
 
   s.add_dependency 'activesupport', '>= 4.0.0'
   s.add_dependency 'rack',          '~> 1.5.x'
