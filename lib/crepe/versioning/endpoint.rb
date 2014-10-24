@@ -2,6 +2,7 @@ require 'crepe/versioning/request'
 
 module Crepe
   module Versioning
+    # Crepe::Endpoint needs a format override.
     module Endpoint
       # The most acceptable format requested, e.g. +:json+.
       #
